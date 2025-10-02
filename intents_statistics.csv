@@ -1,0 +1,10 @@
+Intent,Patterns,Responses,Context
+greeting,12,5,greeting
+grammar_question,12,5,grammar
+vocabulary,11,4,vocabulary
+practice,10,4,practice
+writing_help,8,4,writing
+pronunciation,6,4,pronunciation
+listening,6,4,listening
+encouragement,8,5,motivation
+goodbye,9,4,farewell

@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon"
+      ],
+      "responses": [
+        "Hello! Let's practice English together!",
+        "Hi there! Ready for an English lesson?",
+        "Hey! What would you like to learn today?"
+      ],
+      "context": "greeting"
+    },
+    {
+      "tag": "grammar_question",
+      "patterns": [
+        "what is present tense",
+        "explain past tense",
+        "help with grammar",
+        "grammar rules"
+      ],
+      "responses": [
+        "Present tense describes actions happening now. For example: 'I eat breakfast every morning.'",
+        "Let me help you with grammar! What specific topic interests you?"
+      ],
+      "context": "grammar"
+    },
+    {
+      "tag": "vocabulary",
+      "patterns": [
+        "teach me words",
+        "new words",
+        "vocabulary lesson",
+        "word meaning"
+      ],
+      "responses": [
+        "Let's learn new words! Here's a word: 'Beautiful' means attractive or pleasing to look at.",
+        "Vocabulary time! Try using this word in a sentence: 'Adventure'"
+      ],
+      "context": "vocabulary"
+    },
+    {
+      "tag": "practice",
+      "patterns": [
+        "I want to practice",
+        "let's practice",
+        "practice speaking",
+        "conversation practice"
+      ],
+      "responses": [
+        "Great! Let's have a conversation. Tell me about your day.",
+        "Perfect! Practice makes perfect. What topic would you like to talk about?"
+      ],
+      "context": "practice"
+    }
+  ]
+}
